@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Activities and Gallery</title>
+	<link rel="stylesheet" type="text/css" href="tan.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+	<link rel="stylesheet" type="text/css" href="list.css"> 
+	<script src="script.js" defer></script>
+	
+
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#activities-list">Activities</a></li>
+				<li><a href="#sites-list">Tourist Sites</a></li>
+				<li><a href="#tour-packages-table">Tour Packages</a></li>
+				<li><a href="#signupForm">Booking</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<center>
+  <h1>ACTIVITIES OFFERED</h1>
+  <ul id="activities-list">
+    <li>Transport Services</li>
+    <li>Hotel Booking Services</li>
+    <li>Food Services</li>
+    <li>Game Drives</li>
+    <li>Airport Transfers</li>
+    <li>Safaris</li>
+    <li>City Tours</li>
+    <li>Gorilla Trekking</li>
+  </ul>
+</center>
+
+<center>
+  <h1>TOURIST SITES VISITED</h1>
+  <ul id ="sites-list">
+    <li>Meru National Park<b>(Kenya)</b></li>
+    <li>Masai Mara National Park<b>(Kenya)</b> </li>
+    <li>Rwenzori National Park<b>(Uganda)</b> </li>
+    <li>Lake Mburo National Park<b>(Uganda)</b> </li>
+    <li>Serengeti National Park<b>(Tanzania)</b> </li>
+    <li>Chobe National Park<b>(Botswana)</b> </li>
+    <li>Bwindi Impenetrable National Park<b>(Uganda)</b> </li>
+    <li>Kruger National Park<b>(South Africa)</b> </li>
+    <li>Amboseli National Park<b>(Kenya)</b> </li>
+    <li>Virunga National Park<b>(Democratic Republic of Congo)</b> </li>
+  </ul>
+</center>
+
+<center>
+	<h2>TOUR PACKAGES</h2>
+</center>
+<center>
+  <table id="tour-packages-table">
+    <tr>
+    	<center>
+      <th colspan="5">TOUR PACKAGES</th>
+    </center>
+    </tr>
+    <tr>
+      <td>Package ID</td>
+      <td>Name</td>
+      <td>Price</td>
+      <td>Activities</td>
+      <td>Duration</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>Safari Adventure</td>
+      <td>$2,500</td>
+      <td>Gorilla Trekking, Game Drives</td>
+      <td>7 days</td>
+    </tr>
+    <tr>
+      <td>002</td>
+      <td>Cultural Expedition</td>
+      <td>$1,800</td>
+      <td>Cultural Tours, Airport Transfers</td>
+      <td>5 days</td>
+    </tr>
+    <tr>
+      <td>003</td>
+      <td>Wildlife Explorer</td>
+      <td>$3,200</td>
+      <td>Game Drives, Accommodation</td>
+      <td>10 days</td>
+    </tr>
+    <tr>
+      <td>004</td>
+      <td>Ultimate Safari</td>
+      <td>$4,500</td>
+      <td>Gorilla Trekking, Game Drives, Transportation</td>
+      <td>14 days</td>
+    </tr>
+  </table>
+</center>
+
+<div class="container">
+    <h2>Booking Inquiry Form</h2>
+    <form id="signupForm" action="forms.php" name="booking">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Please enter your full name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Please enter your email address">
+      </div>
+
+      <div class="form-group">
+        <label for="contactNumber">Contact Number</label>
+        <input type="tel" id="contactNumber" name="contactNumber" placeholder="Please enter your contact number">
+      </div>
+
+      <div class="form-group">
+        <label for="tourPackage">Desired Tour Package</label>
+        <select id="tourPackage" name="tourPackage">
+          <option disabled selected>Select an option</option>
+          <option>Safari Adventure</option>
+          <option>Cultural Expedition</option>
+          <option>Wildlife Explorer</option>
+          <option>Ultimate Safari</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="additionalInfo">Additional Information</label>
+        <textarea id="additionalInfo" name="additionalInfo" rows="5" placeholder="Anything else you would like to add?"></textarea>
+      </div>
+
+      <input type="submit" class="submit-button" value="Submit">
+    </form>
+  </div>
+
+	<nav class="middle-nav">
+    <ul>
+      <li><a href="FAQ.html">FAQ</a></li>
+      <li><a href="Traven and Tourism Agency - 1.html">Home</a></li>
+    </ul>
+  </nav>
+
+<br>
+
+
+<div id ="gallery">
+	<center>
+	<h2>Gallery of the Various Sites visited</h2>
+</center>
+	<figure class="gallery-item">
+		<img src="kruger.jpg" alt="Kruger National Park">
+		<figcaption>Kruger National Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="mburo.jpg" alt="Lake Mburo National Park">
+		<figcaption>Lake Mburo National Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="rwenzori.jpg" alt="Rwenzori National Park">
+		<figcaption>Rwenzori National Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="meru.jpg" alt="Meru National Park">
+		<figcaption>Meru National Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="bwindi.jpg" alt="Bwindi Impenetrable Forest National Park">
+		<figcaption>Bwindi Impenetrable Forestr Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="serengeti.jpg" alt="Serengeti National Park">
+		<figcaption>Serengeti National Park</figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<img src="chobe.jpg" alt="Chobe National Park">
+		<figcaption>Chobe National Park</figcaption>
+	</figure>
+</div>
+
+<section class="partner-section">
+  <h2>OUR PARTNERS</h2>
+  <div class="partner-logos">
+    <img src="ktb.png" alt="Kenya Tourism Board">
+    <img src="land.png" alt="Land Rover">
+    <img src="kcb.png" alt="Kenya Commercial Bank">
+    <img src="serena.png" alt="Serena Hotels">
+    <img src="sg.jpg" alt="Swiss Gear">
+    <img src="kq.png" alt="Kenya Airways">
+    
+  </div>
+</section>
+	
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.gallery-item figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.gallery-item:hover figcaption {
+    opacity: 1;
+}
+
+
+
+#tour-packages-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#tour-packages-table th,
+#tour-packages-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#tour-packages-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+#tour-packages-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tour-packages-table tr:hover {
+  background-color: #ddd;
+}
+
+#tour-packages-table td:last-child {
+  text-align: center;
+}
+
+
+form {
+  margin: 20px 0;
+  padding: 20px; 
+  background-color: whitesmoke; 
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  font-size: 16px; 
+  color: black;
+}
+
+label {
+  display: inline-block; 
+  margin: 10px 0; 
+  font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: black; 
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: black; 
+
+  .submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.activities-list,
+.sites-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.activities-list li,
+.sites-list li {
+  padding: 5px 0;
+  position: relative; /* Add this line */
+}
+
+.activities-list li:before,
+.sites-list li:before {
+  content: '\25CF';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  position: absolute;
+  left: -20px; /* Adjust this value to move the bullet closer or further from the words */
+  top: 50%;
+  transform: translateY(-50%);
+}
+

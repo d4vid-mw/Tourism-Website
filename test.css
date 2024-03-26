@@ -1,0 +1,105 @@
+#tour-packages-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#tour-packages-table th,
+#tour-packages-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#tour-packages-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+#tour-packages-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tour-packages-table tr:hover {
+  background-color: #ddd;
+}
+
+#tour-packages-table td:last-child {
+  text-align: center;
+}
+
+
+form {
+  margin: 20px 0;
+  padding: 20px; 
+  background-color: whitesmoke; 
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  font-size: 16px; 
+  color: black;
+}
+
+label {
+  display: inline-block; 
+  margin: 10px 0; 
+  font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: black; 
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: black; 
+
+  .submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.activities-list,
+.sites-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.activities-list li,
+.sites-list li {
+  padding: 5px 0;
+}
+
+.activities-list li:before,
+.sites-list li:before {
+  content: '\25CF';
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em;
+  color: #4CAF50;
+}
