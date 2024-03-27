@@ -1,1 +1,1 @@
-please dont consider miscellaneous.html document and the script.js document to
+please dont consider miscellaneous.html document 
