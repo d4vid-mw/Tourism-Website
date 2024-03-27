@@ -1,8 +1,8 @@
 <?php
 // db.php
 $servername = "localhost";
-$username = "tourism_user";
-$password = "TourismProject";
+$username = "tourism";
+$password = "Conakryka@12";
 $dbname = "tourism";
 
 // Create connection

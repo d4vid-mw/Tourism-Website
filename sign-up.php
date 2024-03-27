@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 include 'db.php'; // Include your database connection script
 
 // Check if the form is submitted
